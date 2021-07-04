@@ -5,7 +5,7 @@ body {
 .orange-color {
   color: orange;
 }
-section {
+.flexiable-content {
   display: flex;
   margin-bottom: 150px;
 }
@@ -34,4 +34,13 @@ h1 {
   background-image: url(image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.ecprience-item {
+  width: 40%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 5%;
+  padding-right: 5px;
+  box-shadow: 10px 10px 35px;
+  border-radius: 10px;
 }
