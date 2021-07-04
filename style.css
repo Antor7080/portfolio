@@ -46,9 +46,7 @@ h1 {
 }
 footer {
   text-align: center;
-
   font-size: 16px;
-  margin: 20px;
 }
 p {
   font-size: 16px;
@@ -62,5 +60,29 @@ p {
   box-shadow: 10px 10px 30px;
   background-color: rgb(187, 236, 11);
   color: rgb(37, 4, 99);
-  text-shadow: 2px 2px 8px black;
+  text-shadow: 2px 5px 10px black;
+  text-transform: unset;
+}
+#full-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(red, blue);
+  border-image-slice: 1;
+}
+#junior-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(black, gray);
+  border-image-slice: 1;
+}
+.experience-area {
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#foot {
+  margin: 0;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(0, 255, 42), rgb(248, 46, 10));
+  padding: 5px 520px;
+  border-radius: 50px;
+  font-weight: 700;
 }
