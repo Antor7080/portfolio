@@ -41,6 +41,26 @@ h1 {
   margin-right: 50px;
   padding-left: 5%;
   padding-right: 5px;
-  box-shadow: 10px 10px 35px;
+  box-shadow: 15px 10px 25px;
   border-radius: 10px;
+}
+footer {
+  text-align: center;
+
+  font-size: 16px;
+  margin: 20px;
+}
+p {
+  font-size: 16px;
+  text-shadow: 2px 5px 8px rgb(43, 41, 41);
+}
+#exp {
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px;
+  background-color: rgb(187, 236, 11);
+  color: rgb(37, 4, 99);
+  text-shadow: 2px 2px 8px black;
 }
